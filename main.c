@@ -23,8 +23,6 @@
 
 #include <curl/curl.h>
 
-#define REDDIT_FEED "empty"
-
 static size_t read_reddit_data_cb(char *, size_t, size_t, char *);
 
 static size_t

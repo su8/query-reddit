@@ -5,7 +5,7 @@ PACKAGE=reddit
 PROG=main.c
 
 all:
-	$(CC) $(CFLAGS) $(LDFLAGS) -o $(PACKAGE) $(PROG)
+	$(CC) -DREDDIT_FEED=\"'$(FEED)'\" $(CFLAGS) $(LDFLAGS) -o $(PACKAGE) $(PROG)
 
 install: 
 	install -D -s -m 755 $(PACKAGE) /usr/bin/$(PACKAGE)
