@@ -7,10 +7,10 @@ Replace the text within the variable **FEED** with your [own JSON feed](https://
 # Compile
 
 ```bash
-make FEED="12345678"
+make FEED="123456789"
 sudo make install
 ```
 
-# Usages
+# Usage
 
 Just execute `reddit`
